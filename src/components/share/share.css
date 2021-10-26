@@ -1,0 +1,72 @@
+.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgb(240, 240, 240);
+}
+
+.share-wrapper {
+  padding: 30px;
+}
+
+.share-top{
+    display: flex;
+    align-items: center;
+}
+
+.share-pp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.share-input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80%;
+}
+
+.share-hr {
+  margin: 10px 0;
+  border: 1px solid rgb(241, 241, 255);
+}
+
+.share-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.share-options{
+    display: flex;
+    margin: 0 auto;
+}
+
+.share-option{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.media-icon{
+    width:24px;
+    margin-right: 10px;
+}
+
+.share-options-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.share-button{
+    border: none;
+    font-weight: 500;
+    padding:5px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+}
